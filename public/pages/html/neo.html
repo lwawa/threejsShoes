@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta http-equiv="refresh" content="1">  recarrega a pagina a cada 1 segundo -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>threejs</title>
+    <link rel="stylesheet" href="pages/css/neo.css" />
+  </head>
+
+  <body>
+    <div class="tela">
+      <div class="centralizar">
+      </div>
+  
+      <canvas id="threeCanvas" height="753px" width="1205px"></canvas>
+      <div class="button-container" id="button-container">
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 1"
+          class="button"
+          id="button1"
+        />
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 2"
+          class="button"
+          id="button2"
+        />
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 3"
+          class="button"
+          id="button3"
+        />
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 4"
+          class="button"
+          id="button4"
+        />
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 5"
+          class="button"
+          id="button5"
+        />
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 6"
+          class="button"
+          id="button6"
+        />
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 7"
+          class="button"
+          id="button7"
+        />
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 8"
+          class="button"
+          id="button8"
+        />
+        <img
+          src="assets/images/app/UI/pontoSelecao.svg"
+          alt="Botão 9"
+          class="button"
+          id="button9"
+        />
+      </div>
+
+      <div class="color-div" id="color-div">
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+        <button class="colorButton"></button>
+      </div>
+      <div class="tool" id="tool">
+        <img
+          src="assets/images/app/buttons/previsualizar.png"
+          id="PreVisualizar"
+        />
+        <img
+          src="assets/images/app/buttons/embaralhar.png"
+          id="Embaralhar"
+        />
+        <img src="assets/images/app/buttons/limparedicao.png" id="Limpar" />
+      </div>
+      <div class="back" id="back">
+        <img src="assets/images/app/buttons/fecharVisualizacao.png" alt="Voltar a edição" id="backButton">
+        <img src="assets/images/app/buttons/visaoSuperior.png" alt="vertical" id="vertical">
+      </div>
+      <div class="listaProd" id="listaProd">
+        <img
+          src="assets/images/app/UI/abrirLista.png"
+          class="abrirLista"
+          id="abrirLista"
+        />
+        <div class="colunaLista">
+          <img
+            src="assets/images/products/tenis/tenisVermelho.png"
+            class="list-image"
+            id="tenisVermelho"
+          />
+          <img
+            src="assets/images/products/tenis/tenisVermelhoBranco.png"
+            class="list-image"
+            id="tenisVermelhoBranco"
+          />
+          <img
+            src="assets/images/products/tenis/tenisBrancoCinza.png"
+            class="list-image"
+            id="tenisBrancoCinza"
+          />
+        </div>
+        <div class="colunaLista">
+          <img
+            src="assets/images/products/tenis/tenisBranco.png"
+            class="list-image"
+            id="tenisBranco"
+          />
+          <img
+            src="assets/images/products/tenis/tenisMarrom.png"
+            class="list-image"
+            id="tenisMarrom"
+          />
+          <img
+            src="assets/images/products/tenis/tenisPretoBranco.png"
+            class="list-image"
+            id="tenisPretoBranco"
+          />
+        </div>
+        <div class="colunaLista">
+          <img
+            src="assets/images/products/tenis/tenisPreto.png"
+            class="list-image"
+            id="tenisPreto"
+            
+          />
+          <img
+            src="assets/images/products/tenis/tenisBrancoPreto.png"
+            class="list-image"
+            id="tenisBrancoPreto"
+          />
+          <img
+            src="assets/images/products/tenis/tenisBrancoPreto2.png"
+            class="list-image"
+            id="tenisBrancoPreto2"
+          />
+        </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+      <script src="https://threejsfundamentals.org/threejs/resources/threejs/r110/examples/js/loaders/OBJLoader.js"></script>
+      <script src="https://threejsfundamentals.org/threejs/resources/threejs/r110/examples/js/controls/OrbitControls.js"></script>
+      <script src="https://threejsfundamentals.org/threejs/resources/threejs/r110/examples/js/renderers/CSS2DRenderer.js"></script>
+      <script src="pages/js/neo.js"></script>
+      <script src="pages/js/menu.js"></script>
+    </div>
+  </body>
+</html>
