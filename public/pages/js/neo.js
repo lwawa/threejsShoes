@@ -81,9 +81,9 @@ var parentObject = new THREE.Object3D();
 var originalRotation;
 var vertical = false;
 //nesse loader eu carrego o obj pela api (so no vercel funciona)
-// loader.load('https://firebasestorage.googleapis.com/v0/b/crashlytics-ccb9c.appspot.com/o/tenis.obj?alt=media&token=c6c87d94-db73-4cf2-810c-b27be94c2965', function (object) {
+loader.load('https://firebasestorage.googleapis.com/v0/b/crashlytics-ccb9c.appspot.com/o/tenis.obj?alt=media&token=c6c87d94-db73-4cf2-810c-b27be94c2965', function (object) {
 //nesse loader eu carrego o obj pelos arquivos(so no local funciona)
-loader.load('/assets/3d/tenis.obj', function (object) {
+//loader.load('/assets/3d/tenis.obj', function (object) {
     // Criando um objeto pai para o objeto carregado
 
     parentObject.add(object);
